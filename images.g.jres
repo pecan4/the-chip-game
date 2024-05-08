@@ -1,0 +1,22 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAA8P8AAAAAAAAA8AAAAAAAAADwAFUFAAAAAFVVVfX/AABVVVVVBQAAVVVf9f8FAABVVVX18QUAAFBVVfXxBQAAAFVV9f8FAAAAAPVVVQAAAAAAD1VV/w8AAAAPUFUAAAAAAP8AAAAAAAAA8P8AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "standard chip"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAA8ABmBQAAAADwUGUFAAAAAFBWVQUAAAAAZVVmAAAAAGX2VlYAAFBlZRVWVf8AZVVVZVVVAABmVVZV//8AAFVWVlYf8QAAUFVh9R9fAAAAVW/1EV8AAABQVvURXw8AAABQ9R9f8AAAAPBQ9V8AAAAADwBQZQAAAPAAAABWAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "moldy_basic"
+    },
+    "image3": {
+        "data": "hwQFAAUAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "camera sprite"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
