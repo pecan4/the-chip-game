@@ -11,7 +11,12 @@
         "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0",
         "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.0.1",
         "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
-        "BetterSettings": "github:S0m3randomguy/bettersettings#2023.5.1"
+        "BetterSettings": "github:S0m3randomguy/bettersettings#2023.5.1",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-sprite-events": "github:riknoll/arcade-sprite-events#dc93eec8412053ebbd2b8f01cf5b6ae285d28900",
+        "arcade-block-objects": "github:microsoft/arcade-block-objects#f486ac1d4dcc096b9297174f97f8cdef1576c7ff",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Stats": "github:UnsignedArduino/Stats#758e35856bd5565e5d0e25c95cccfac79b7fc168"
     },
     "files": [
         "main.blocks",
