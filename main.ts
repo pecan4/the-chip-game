@@ -2,6 +2,7 @@ namespace SpriteKind {
     export const chip = SpriteKind.create()
     export const no_colisions = SpriteKind.create()
     export const enemy_chip = SpriteKind.create()
+    export const enemy_base = SpriteKind.create()
 }
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     if (battling) {
@@ -201,6 +202,24 @@ scene.cameraFollowSprite(camera_sprite)
 camera_sprite.setStayInScreen(true)
 battling = true
 free_camera = false
+let enemy_base_sprite = sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.enemy_base)
 forever(function () {
     enemy_chip_sprite = sprites.create(assets.image`moldy_basic`, SpriteKind.enemy_chip)
     tiles.placeOnTile(enemy_chip_sprite, tiles.getTileLocation(2, 0))
